@@ -8,7 +8,7 @@ https://john95.github.io/historical-trivia-game/
 Technologies used: Materialize, Firebase, jQuery, Pixabay API. To modify the game logic and add new features, edit the app.js file located in the assets/javascript directory. To modify the front end, edit the index.html and indexLB.html (leaderboard page) as well as the styleUI.css file located in the assets/css directory.
 
 ### Materialize
-Materialize is the css framework used to style this website. For further information on Materialize, visit [the docs](http://materializecss.com/).
+Materialize is the CSS Framework used to style this website. For further information on Materialize, visit [the docs](http://materializecss.com/).
 
 
 
