@@ -27,111 +27,111 @@
 
         
 
- <div class="container center " id="maincontainer">
-     
-    <div class="col-xs-4 col-sm-6 center ">
-     <!-- Nav Bar -->   
-    <nav class="deep-purple darken-4" id="test">
-      <div class="nav-wrapper">
-          <br>
-        <a class="text-align-center deep-purple darken-4 lighten-5-text" id="title"> Trivia Game!</a>
-        <ul class="right hide-on-med-and-down">
-          <li><a class="btn deep-purple lighten-1 waves-effect waves-light lighten-5-text" href="indexLB.html">Leaderboard</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <div class="row deep-purple darken-4" id="questions">
-        <!-- question -->
-        <h5 class="white-text flow-text" id="myQuestion">Which infamous European traitor was known as 'the last person to enter Parliament with honest intentions'?</h5>
+    <div class="container center " id="maincontainer">
+        
+        <div class="col-xs-4 col-sm-6 center ">
+        <!-- Nav Bar -->   
+        <nav class="deep-purple darken-4" id="test">
+        <div class="nav-wrapper">
             <br>
-        <!-- end question -->    
-      <!-- Time/Right/Wrong -->   
-        <div class="deep-purple darken-4" id="qPanel">
-          <div class="row"\>
-                <div class="col s4">
-                    <button class="z-depth-5 deep-purple lighten-1 white-text" id="myTimer">Time Remaining: </button>
-                </div>
-                <div class="col s4">    
-                    <button class="z-depth-5 deep-purple lighten-1 white-text" id="rightAnswers">#Right: 00</button>
-                </div>
-                <div class="col s4">    
-                    <button class="z-depth-5 deep-purple lighten-1 white-text" id="wrongAnswers">#Wrong: 00</button>
-                </div>
-          </div>
+            <a class="text-align-center deep-purple darken-4 lighten-5-text" id="title"> Trivia Game!</a>
+            <ul class="right hide-on-med-and-down">
+            <li><a class="btn deep-purple lighten-1 waves-effect waves-light lighten-5-text" href="indexLB.html">Leaderboard</a></li>
+            </ul>
         </div>
-      <!-- Time/Right/Wrong -->
+        </nav>
+
+        <div class="row deep-purple darken-4" id="questions">
+            <!-- question -->
+            <h5 class="white-text flow-text" id="myQuestion">Which infamous European traitor was known as 'the last person to enter Parliament with honest intentions'?</h5>
+                <br>
+            <!-- end question -->    
+        <!-- Time/Right/Wrong -->   
+            <div class="deep-purple darken-4" id="qPanel">
+            <div class="row"\>
+                    <div class="col s4">
+                        <button class="z-depth-5 deep-purple lighten-1 white-text" id="myTimer">Time Remaining: </button>
+                    </div>
+                    <div class="col s4">    
+                        <button class="z-depth-5 deep-purple lighten-1 white-text" id="rightAnswers">#Right: 00</button>
+                    </div>
+                    <div class="col s4">    
+                        <button class="z-depth-5 deep-purple lighten-1 white-text" id="wrongAnswers">#Wrong: 00</button>
+                    </div>
+            </div>
+            </div>
+        <!-- Time/Right/Wrong -->
+        </div>
     </div>
-</div>
     
     
 
 
-<div id="bg" style="height:400px"></div>
+    <div id="bg" style="height:400px"></div>
 
-    <!-- answers-->
-        <div class="panel panel-default myPanel panel-relative  deep-purple darken-4" id="mainpanel">
-          <!-- Row for Answers-->
-          <div class="col-xs-4 col-sm-6 center">
-                        <!-- The 4 answer choices go in these 4 sub columns -->
-            <div class="row center" id="answerrowone">
-              <div class="col s8 center"> 
-                  <div class="row" id="buttontext">
-                      <button type="button" class="deep-purple lighten-1 btn btn-default btnLarge btn-primary btn-block answerChoice" id="answer0" value="0">Guy Fawkes</button>
-                  </div>
-                  <div class="row" id="buttontext">
-                      <button type="button" class="deep-purple lighten-1 btn btn-default btnLarge btn-primary btn-block answerChoice" id="answer1" value="1">Francis Tresham</button>
-                  </div>
-                  <div class="row" id="buttontext">
-                      <button type="button" class="deep-purple lighten-1 btn btn-default btnLarge btn-primary btn-block answerChoice" id="answer2" value="2">Everard Digby</button>
-                  </div>
-                  <div class="row" id="buttontext">
-                      <button type="button" class="deep-purple lighten-1 btn btn-default btnLarge btn-primary btn-block answerChoice" id="answer3" value="3">Robert Catesby</button>
-                  </div>
-              </div>  
+        <!-- answers-->
+            <div class="panel panel-default myPanel panel-relative  deep-purple darken-4" id="mainpanel">
+            <!-- Row for Answers-->
+            <div class="col-xs-4 col-sm-6 center">
+                            <!-- The 4 answer choices go in these 4 sub columns -->
+                <div class="row center" id="answerrowone">
+                <div class="col s8 center"> 
+                    <div class="row" id="buttontext">
+                        <button type="button" class="deep-purple lighten-1 btn btn-default btnLarge btn-primary btn-block answerChoice" id="answer0" value="0">Guy Fawkes</button>
+                    </div>
+                    <div class="row" id="buttontext">
+                        <button type="button" class="deep-purple lighten-1 btn btn-default btnLarge btn-primary btn-block answerChoice" id="answer1" value="1">Francis Tresham</button>
+                    </div>
+                    <div class="row" id="buttontext">
+                        <button type="button" class="deep-purple lighten-1 btn btn-default btnLarge btn-primary btn-block answerChoice" id="answer2" value="2">Everard Digby</button>
+                    </div>
+                    <div class="row" id="buttontext">
+                        <button type="button" class="deep-purple lighten-1 btn btn-default btnLarge btn-primary btn-block answerChoice" id="answer3" value="3">Robert Catesby</button>
+                    </div>
+                </div>  
+                </div>
+
+                <br>
+
+                <div class="row" id="gameScoreCSS">
+                <div class="col s2"></div>
+                <div class="col s0">
+                    <button type="button" class="btn btn-block btnLarge  answerChoice red darken-1 z-depth-5 myInputBtn" id="startGame">Start/Reset Game</button>
+                </div>
+                <div class="col s0">
+                    <button type="button" class="btn btn-block btnLarge answerChoice red darken-1" id="gameScore">Game Score:</button>
+                </div>
+                <div class="col s0">
+                    <a class='btn btn-block btnLarge red darken-1 z-depth-5 myInputBtn answerChoice modal-trigger' id="saveGame"href="#modal1">Save Game</a>
+                </div>
+                </div>
+                
+
+                
+            </div> 
             </div>
-
-            <br>
-
-            <div class="row" id="gameScoreCSS">
-              <div class="col s2"></div>
-              <div class="col s0">
-                   <button type="button" class="btn btn-block btnLarge  answerChoice red darken-1 z-depth-5 myInputBtn" id="startGame">Start/Reset Game</button>
-              </div>
-              <div class="col s0">
-                  <button type="button" class="btn btn-block btnLarge answerChoice red darken-1" id="gameScore">Game Score:</button>
-              </div>
-              <div class="col s0">
-                <a class='btn btn-block btnLarge red darken-1 z-depth-5 myInputBtn answerChoice modal-trigger' id="saveGame"href="#modal1">Save Game</a>
-              </div>
-            </div>
-            
-
-            
-          </div> 
-        </div>
-    <!-- End of Answers -->
-</div> 
+        <!-- End of Answers -->
+    </div> 
 
     
 
     <!--Import jQuery before materialize.js-->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>  
-  <!-- jQuery imports -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>  
+    <!-- jQuery imports -->
 
-  <!-- jQuery CDN -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  
-  <!-- Bootstrap JavaScript CDN -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
-  <!-- Firebase Stuff -->
-  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <!-- Firebase Stuff -->
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
 
-  <!-- Trivia Questions Game JavaScript -->
-  <script src="./assets/javascript/app.js"></script>
+    <!-- Trivia Questions Game JavaScript -->
+    <script src="./assets/javascript/app.js"></script>
 
-</body>
+  </body>
 </html>
