@@ -297,7 +297,6 @@ $(document).ready(function(){
             gameOver();
             resetCounters();
         }
-
     }
 
 
