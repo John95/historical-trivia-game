@@ -289,7 +289,7 @@ $(document).ready(function(){
             $("#gameScore").text("Game Score: "+numRight);
         } else {
             numWrong++;
-            $("#wrongAnswers").text("#Wrong: "+numWrong);
+            $("#wrongAnswers").text("# Wrong: "+numWrong);
         }
 
         totalQuestionsAnswered++;
@@ -316,8 +316,8 @@ $(document).ready(function(){
                             resetCounters();
                             $("#questions").show();
                             $("#answerrowone").show();
-                            $("#rightAnswers").text("#Right: 0");
-                            $("#wrongAnswers").text("#Wrong: 0");
+                            $("#rightAnswers").text("# Right: 0");
+                            $("#wrongAnswers").text("# Wrong: 0");
                             $("#gameScore").text("Game Score: 0");
                             $("#bg").css('background-image', 'url(https://upload.wikimedia.org/wikipedia/commons/b/b8/Surrender_of_Lord_Cornwallis.jpg)');
                             getQandA();
